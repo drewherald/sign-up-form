@@ -9,11 +9,16 @@
 
 .left-image{
     flex: 1 1 0;
+    background-image: url("img.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .right-side{
     flex: 2 1 0;
-    padding-top: 5%;
+    padding-top: 7%;
     padding-bottom: 5%;
 }
 
@@ -24,13 +29,12 @@
 .mini-flex-container{
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
 }
 
 .form{
     background-color: white;
-    padding-left: 10vh;
+    padding-left: 7vh;
     border-bottom: 10px;
     border-color: white;
 
@@ -39,6 +43,7 @@
 input, label {
     display:block;
     background-color: white;
+    border-color: #E5E7EB;
 }
 
 label{
@@ -49,10 +54,36 @@ p{
     font-size: smaller;
 }
 
+button{
+    height: 5vh;
+    width: 22vh;
+    background-color: #b56a6e;
+    color: white;
+    border-radius: 8px;
+}
+
 p, button{
-    margin-left: 10vh;
+    margin-left: 7vh;
 }
 
 .bottom{
     padding-top: 5vh;
+}
+
+.bottom-form{
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.top-text{
+    padding-bottom: 7vh;
+}
+
+a{
+    color: #b56a6e;
+    text-decoration: none;
+}
+
+input{
+    border-radius: 1px;
 }
