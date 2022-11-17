@@ -1,0 +1,22 @@
+.flex-container{
+    display: flex;
+}
+
+.left-image{
+    flex: 1 1 0;
+}
+
+.right-side{
+    flex: 2 1 0;
+}
+
+.stock-photo{
+    max-height: 100vh;
+}
+
+.mini-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
