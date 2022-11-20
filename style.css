@@ -1,19 +1,26 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: gainsboro;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-container{
     display: flex;
+    align-items: stretch;
 }
 
 .left-image{
     flex: 1 1 0;
-    background-image: url("img.jpeg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    display: grid;
+    height: 100%;
+}
+
+.mountain{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 
 .right-side{
@@ -86,4 +93,7 @@ a{
 
 input{
     border-radius: 1px;
+    box-shadow:0 0 15px 4px gainsboro;
+    border: 0;
+    background-color: white;
 }
